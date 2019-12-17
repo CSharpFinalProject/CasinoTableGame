@@ -1,0 +1,10 @@
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\bin\Debug\FinalGame.exe.config
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\bin\Debug\FinalGame.exe
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\bin\Debug\FinalGame.pdb
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.csprojAssemblyReference.cache
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.welcomForm.resources
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.playingPokerForm.resources
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.Properties.Resources.resources
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.csproj.GenerateResource.cache
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.exe
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.pdb

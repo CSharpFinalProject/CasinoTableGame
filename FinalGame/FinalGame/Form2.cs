@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace FinalGame
 {
-    public partial class welcomForm : Form
+    public partial class playingPokerForm : Form
     {
-        public welcomForm()
+        public playingPokerForm()
         {
             InitializeComponent();
-        }
-
-        private void pokerButton_Click(object sender, EventArgs e)
-        {
-            new playingPokerForm().Show();
-        }
-
-        private void sportsBetting_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
