@@ -8,3 +8,14 @@ C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\Fin
 C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.csproj.GenerateResource.cache
 C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.exe
 C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.pdb
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\bin\Debug\FinalGame.exe.config
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\bin\Debug\FinalGame.exe
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\bin\Debug\FinalGame.pdb
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.csprojAssemblyReference.cache
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.welcomForm.resources
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.playingPokerForm.resources
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.Properties.Resources.resources
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.csproj.GenerateResource.cache
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.csproj.CoreCompileInputs.cache
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.exe
+C:\Users\gg179936\Desktop\CSharpFinal\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.pdb

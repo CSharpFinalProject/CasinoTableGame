@@ -37,13 +37,14 @@
             // 
             // directionLabel
             // 
-            this.directionLabel.Font = new System.Drawing.Font("Segoe Script", 20F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+            this.directionLabel.Font = new System.Drawing.Font("Segoe Script", 18F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.directionLabel.Location = new System.Drawing.Point(51, 49);
             this.directionLabel.Name = "directionLabel";
             this.directionLabel.Size = new System.Drawing.Size(594, 40);
             this.directionLabel.TabIndex = 1;
-            this.directionLabel.Text = "Please Choose a Game you want to play";
+            this.directionLabel.Text = "Please Choose a Game you\'d like to play";
+            this.directionLabel.Click += new System.EventHandler(this.directionLabel_Click);
             // 
             // pokerButton
             // 

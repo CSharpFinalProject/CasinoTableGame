@@ -26,5 +26,10 @@ namespace FinalGame
         {
 
         }
+
+        private void directionLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
