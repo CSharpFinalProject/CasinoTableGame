@@ -24,7 +24,7 @@ namespace FinalGame
 
         private void sportsBetting_Click(object sender, EventArgs e)
         {
-
+            new horseRacingForm().Show();
         }
     }
 }

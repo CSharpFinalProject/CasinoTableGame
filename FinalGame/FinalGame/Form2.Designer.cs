@@ -63,7 +63,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(218, 373);
+            this.label1.Location = new System.Drawing.Point(222, 373);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 2;
@@ -87,7 +87,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(530, 438);
+            this.textBox2.Location = new System.Drawing.Point(524, 438);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 5;
@@ -108,6 +108,7 @@
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Name = "playingPokerForm";
             this.Text = "Playing Poker";
+            this.Load += new System.EventHandler(this.playingPokerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

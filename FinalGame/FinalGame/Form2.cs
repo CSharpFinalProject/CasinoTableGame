@@ -26,5 +26,10 @@ namespace FinalGame
         {
 
         }
+
+        private void playingPokerForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(welcomForm));
             this.directionLabel = new System.Windows.Forms.Label();
             this.pokerButton = new System.Windows.Forms.Button();
-            this.sportsBetting = new System.Windows.Forms.Button();
+            this.horseRacing = new System.Windows.Forms.Button();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -60,18 +60,18 @@
             this.pokerButton.UseVisualStyleBackColor = false;
             this.pokerButton.Click += new System.EventHandler(this.pokerButton_Click);
             // 
-            // sportsBetting
+            // horseRacing
             // 
-            this.sportsBetting.BackColor = System.Drawing.Color.Black;
-            this.sportsBetting.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sportsBetting.ForeColor = System.Drawing.SystemColors.Control;
-            this.sportsBetting.Location = new System.Drawing.Point(415, 245);
-            this.sportsBetting.Name = "sportsBetting";
-            this.sportsBetting.Size = new System.Drawing.Size(230, 46);
-            this.sportsBetting.TabIndex = 3;
-            this.sportsBetting.Text = "Sports Betting";
-            this.sportsBetting.UseVisualStyleBackColor = false;
-            this.sportsBetting.Click += new System.EventHandler(this.sportsBetting_Click);
+            this.horseRacing.BackColor = System.Drawing.Color.Black;
+            this.horseRacing.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.horseRacing.ForeColor = System.Drawing.SystemColors.Control;
+            this.horseRacing.Location = new System.Drawing.Point(415, 245);
+            this.horseRacing.Name = "horseRacing";
+            this.horseRacing.Size = new System.Drawing.Size(230, 46);
+            this.horseRacing.TabIndex = 3;
+            this.horseRacing.Text = "Horse Racing";
+            this.horseRacing.UseVisualStyleBackColor = false;
+            this.horseRacing.Click += new System.EventHandler(this.sportsBetting_Click);
             // 
             // welcomeLabel
             // 
@@ -92,7 +92,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(697, 450);
             this.Controls.Add(this.welcomeLabel);
-            this.Controls.Add(this.sportsBetting);
+            this.Controls.Add(this.horseRacing);
             this.Controls.Add(this.pokerButton);
             this.Controls.Add(this.directionLabel);
             this.Name = "welcomForm";
@@ -104,7 +104,7 @@
         #endregion
         private System.Windows.Forms.Label directionLabel;
         private System.Windows.Forms.Button pokerButton;
-        private System.Windows.Forms.Button sportsBetting;
+        private System.Windows.Forms.Button horseRacing;
         private System.Windows.Forms.Label welcomeLabel;
     }
 }
