@@ -8,3 +8,4 @@ C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\Fin
 C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.csproj.GenerateResource.cache
 C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.exe
 C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.pdb
+C:\Users\General User\Desktop\CSharp\MarioTypeGame\CasinoTableGame\FinalGame\FinalGame\obj\Debug\FinalGame.w.resources
