@@ -30,12 +30,12 @@
         {
             this.hitButton = new System.Windows.Forms.Button();
             this.standButton = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.dealerCardOne = new System.Windows.Forms.Label();
+            this.dealerCardTwo = new System.Windows.Forms.Label();
+            this.dealerCardThree = new System.Windows.Forms.Label();
+            this.cardThree = new System.Windows.Forms.Label();
+            this.cardOne = new System.Windows.Forms.Label();
+            this.cardTwo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // hitButton
@@ -62,65 +62,59 @@
             this.standButton.UseVisualStyleBackColor = true;
             this.standButton.Click += new System.EventHandler(this.standButton_Click);
             // 
-            // button2
+            // dealerCardOne
             // 
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(326, 402);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(70, 66);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.dealerCardOne.AutoSize = true;
+            this.dealerCardOne.Location = new System.Drawing.Point(327, 75);
+            this.dealerCardOne.Name = "dealerCardOne";
+            this.dealerCardOne.Size = new System.Drawing.Size(35, 13);
+            this.dealerCardOne.TabIndex = 2;
+            this.dealerCardOne.Text = "label1";
             // 
-            // button1
+            // dealerCardTwo
             // 
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(402, 438);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 66);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.dealerCardTwo.AutoSize = true;
+            this.dealerCardTwo.Location = new System.Drawing.Point(410, 43);
+            this.dealerCardTwo.Name = "dealerCardTwo";
+            this.dealerCardTwo.Size = new System.Drawing.Size(35, 13);
+            this.dealerCardTwo.TabIndex = 3;
+            this.dealerCardTwo.Text = "label2";
             // 
-            // button3
+            // dealerCardThree
             // 
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(478, 402);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(70, 66);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.dealerCardThree.AutoSize = true;
+            this.dealerCardThree.Location = new System.Drawing.Point(500, 75);
+            this.dealerCardThree.Name = "dealerCardThree";
+            this.dealerCardThree.Size = new System.Drawing.Size(35, 13);
+            this.dealerCardThree.TabIndex = 4;
+            this.dealerCardThree.Text = "label3";
             // 
-            // button5
+            // cardThree
             // 
-            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.Location = new System.Drawing.Point(402, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(70, 66);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.cardThree.AutoSize = true;
+            this.cardThree.Location = new System.Drawing.Point(327, 455);
+            this.cardThree.Name = "cardThree";
+            this.cardThree.Size = new System.Drawing.Size(35, 13);
+            this.cardThree.TabIndex = 5;
+            this.cardThree.Text = "label4";
             // 
-            // button6
+            // cardOne
             // 
-            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button6.Location = new System.Drawing.Point(478, 48);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(70, 66);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.cardOne.AutoSize = true;
+            this.cardOne.Location = new System.Drawing.Point(410, 479);
+            this.cardOne.Name = "cardOne";
+            this.cardOne.Size = new System.Drawing.Size(39, 13);
+            this.cardOne.TabIndex = 6;
+            this.cardOne.Text = "Label1";
             // 
-            // button7
+            // cardTwo
             // 
-            this.button7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button7.Location = new System.Drawing.Point(326, 48);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(70, 66);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.cardTwo.AutoSize = true;
+            this.cardTwo.Location = new System.Drawing.Point(499, 454);
+            this.cardTwo.Name = "cardTwo";
+            this.cardTwo.Size = new System.Drawing.Size(35, 13);
+            this.cardTwo.TabIndex = 7;
+            this.cardTwo.Text = "label6";
             // 
             // playingPokerForm
             // 
@@ -129,12 +123,12 @@
             this.BackgroundImage = global::FinalGame.Properties.Resources.blackjake;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(843, 516);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.cardTwo);
+            this.Controls.Add(this.cardOne);
+            this.Controls.Add(this.cardThree);
+            this.Controls.Add(this.dealerCardThree);
+            this.Controls.Add(this.dealerCardTwo);
+            this.Controls.Add(this.dealerCardOne);
             this.Controls.Add(this.standButton);
             this.Controls.Add(this.hitButton);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -142,6 +136,7 @@
             this.Text = "Playing Poker";
             this.Load += new System.EventHandler(this.playingPokerForm_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -149,11 +144,11 @@
 
         private System.Windows.Forms.Button hitButton;
         private System.Windows.Forms.Button standButton;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label dealerCardOne;
+        private System.Windows.Forms.Label dealerCardTwo;
+        private System.Windows.Forms.Label dealerCardThree;
+        private System.Windows.Forms.Label cardThree;
+        private System.Windows.Forms.Label cardOne;
+        private System.Windows.Forms.Label cardTwo;
     }
 }

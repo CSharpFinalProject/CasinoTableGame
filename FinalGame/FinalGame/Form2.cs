@@ -17,8 +17,7 @@ namespace FinalGame
             InitializeComponent();
         }
 
-        private void hitButton_Click(object sender, EventArgs e)
-        {
+        private void hitButton_Click(object sender, EventArgs e)      {
 
         }
 
