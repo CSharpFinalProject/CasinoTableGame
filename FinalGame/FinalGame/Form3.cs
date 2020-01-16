@@ -69,5 +69,10 @@ namespace FinalGame
             }
             textBox3.Text = winner;
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

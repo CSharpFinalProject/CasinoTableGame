@@ -30,12 +30,21 @@
         {
             this.hitButton = new System.Windows.Forms.Button();
             this.standButton = new System.Windows.Forms.Button();
-            this.dealerCardOne = new System.Windows.Forms.Label();
-            this.dealerCardTwo = new System.Windows.Forms.Label();
-            this.dealerCardThree = new System.Windows.Forms.Label();
-            this.cardThree = new System.Windows.Forms.Label();
-            this.cardOne = new System.Windows.Forms.Label();
-            this.cardTwo = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.startButton = new System.Windows.Forms.Button();
+            this.winnerLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // hitButton
@@ -62,59 +71,85 @@
             this.standButton.UseVisualStyleBackColor = true;
             this.standButton.Click += new System.EventHandler(this.standButton_Click);
             // 
-            // dealerCardOne
+            // pictureBox3
             // 
-            this.dealerCardOne.AutoSize = true;
-            this.dealerCardOne.Location = new System.Drawing.Point(327, 75);
-            this.dealerCardOne.Name = "dealerCardOne";
-            this.dealerCardOne.Size = new System.Drawing.Size(35, 13);
-            this.dealerCardOne.TabIndex = 2;
-            this.dealerCardOne.Text = "label1";
+            this.pictureBox3.Location = new System.Drawing.Point(-23, -45);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
             // 
-            // dealerCardTwo
+            // pictureBox5
             // 
-            this.dealerCardTwo.AutoSize = true;
-            this.dealerCardTwo.Location = new System.Drawing.Point(410, 43);
-            this.dealerCardTwo.Name = "dealerCardTwo";
-            this.dealerCardTwo.Size = new System.Drawing.Size(35, 13);
-            this.dealerCardTwo.TabIndex = 3;
-            this.dealerCardTwo.Text = "label2";
+            this.pictureBox5.Location = new System.Drawing.Point(262, 362);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(72, 94);
+            this.pictureBox5.TabIndex = 6;
+            this.pictureBox5.TabStop = false;
             // 
-            // dealerCardThree
+            // pictureBox6
             // 
-            this.dealerCardThree.AutoSize = true;
-            this.dealerCardThree.Location = new System.Drawing.Point(500, 75);
-            this.dealerCardThree.Name = "dealerCardThree";
-            this.dealerCardThree.Size = new System.Drawing.Size(35, 13);
-            this.dealerCardThree.TabIndex = 4;
-            this.dealerCardThree.Text = "label3";
+            this.pictureBox6.Location = new System.Drawing.Point(488, 359);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(72, 94);
+            this.pictureBox6.TabIndex = 7;
+            this.pictureBox6.TabStop = false;
             // 
-            // cardThree
+            // pictureBox7
             // 
-            this.cardThree.AutoSize = true;
-            this.cardThree.Location = new System.Drawing.Point(327, 455);
-            this.cardThree.Name = "cardThree";
-            this.cardThree.Size = new System.Drawing.Size(35, 13);
-            this.cardThree.TabIndex = 5;
-            this.cardThree.Text = "label4";
+            this.pictureBox7.Location = new System.Drawing.Point(374, 395);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(72, 94);
+            this.pictureBox7.TabIndex = 8;
+            this.pictureBox7.TabStop = false;
             // 
-            // cardOne
+            // textBox1
             // 
-            this.cardOne.AutoSize = true;
-            this.cardOne.Location = new System.Drawing.Point(410, 479);
-            this.cardOne.Name = "cardOne";
-            this.cardOne.Size = new System.Drawing.Size(39, 13);
-            this.cardOne.TabIndex = 6;
-            this.cardOne.Text = "Label1";
+            this.textBox1.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(365, 281);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 39);
+            this.textBox1.TabIndex = 9;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // cardTwo
+            // startButton
             // 
-            this.cardTwo.AutoSize = true;
-            this.cardTwo.Location = new System.Drawing.Point(499, 454);
-            this.cardTwo.Name = "cardTwo";
-            this.cardTwo.Size = new System.Drawing.Size(35, 13);
-            this.cardTwo.TabIndex = 7;
-            this.cardTwo.Text = "label6";
+            this.startButton.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.startButton.Location = new System.Drawing.Point(374, 339);
+            this.startButton.Name = "startButton";
+            this.startButton.Size = new System.Drawing.Size(77, 38);
+            this.startButton.TabIndex = 10;
+            this.startButton.Text = "Start";
+            this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.Click += new System.EventHandler(this.startButton_Click);
+            // 
+            // winnerLabel
+            // 
+            this.winnerLabel.AutoSize = true;
+            this.winnerLabel.Font = new System.Drawing.Font("Segoe Script", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.winnerLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.winnerLabel.Location = new System.Drawing.Point(333, 246);
+            this.winnerLabel.Name = "winnerLabel";
+            this.winnerLabel.Size = new System.Drawing.Size(172, 32);
+            this.winnerLabel.TabIndex = 11;
+            this.winnerLabel.Text = "The winner is ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(262, 43);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(72, 94);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(488, 43);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(72, 94);
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
             // 
             // playingPokerForm
             // 
@@ -123,18 +158,27 @@
             this.BackgroundImage = global::FinalGame.Properties.Resources.blackjake;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(843, 516);
-            this.Controls.Add(this.cardTwo);
-            this.Controls.Add(this.cardOne);
-            this.Controls.Add(this.cardThree);
-            this.Controls.Add(this.dealerCardThree);
-            this.Controls.Add(this.dealerCardTwo);
-            this.Controls.Add(this.dealerCardOne);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.winnerLabel);
+            this.Controls.Add(this.startButton);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.standButton);
             this.Controls.Add(this.hitButton);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Name = "playingPokerForm";
             this.Text = "Playing Poker";
             this.Load += new System.EventHandler(this.playingPokerForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,11 +188,14 @@
 
         private System.Windows.Forms.Button hitButton;
         private System.Windows.Forms.Button standButton;
-        private System.Windows.Forms.Label dealerCardOne;
-        private System.Windows.Forms.Label dealerCardTwo;
-        private System.Windows.Forms.Label dealerCardThree;
-        private System.Windows.Forms.Label cardThree;
-        private System.Windows.Forms.Label cardOne;
-        private System.Windows.Forms.Label cardTwo;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button startButton;
+        private System.Windows.Forms.Label winnerLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(welcomForm));
             this.directionLabel = new System.Windows.Forms.Label();
-            this.pokerButton = new System.Windows.Forms.Button();
+            this.blackJackButton = new System.Windows.Forms.Button();
             this.horseRacing = new System.Windows.Forms.Button();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -47,18 +47,18 @@
             this.directionLabel.TabIndex = 1;
             this.directionLabel.Text = "Please Choose a Game you want to play";
             // 
-            // pokerButton
+            // blackJackButton
             // 
-            this.pokerButton.BackColor = System.Drawing.Color.Black;
-            this.pokerButton.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pokerButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.pokerButton.Location = new System.Drawing.Point(59, 245);
-            this.pokerButton.Name = "pokerButton";
-            this.pokerButton.Size = new System.Drawing.Size(117, 46);
-            this.pokerButton.TabIndex = 2;
-            this.pokerButton.Text = "Poker";
-            this.pokerButton.UseVisualStyleBackColor = false;
-            this.pokerButton.Click += new System.EventHandler(this.pokerButton_Click);
+            this.blackJackButton.BackColor = System.Drawing.Color.Black;
+            this.blackJackButton.Font = new System.Drawing.Font("Segoe Script", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blackJackButton.ForeColor = System.Drawing.SystemColors.Control;
+            this.blackJackButton.Location = new System.Drawing.Point(59, 245);
+            this.blackJackButton.Name = "blackJackButton";
+            this.blackJackButton.Size = new System.Drawing.Size(178, 46);
+            this.blackJackButton.TabIndex = 2;
+            this.blackJackButton.Text = "Blackjack";
+            this.blackJackButton.UseVisualStyleBackColor = false;
+            this.blackJackButton.Click += new System.EventHandler(this.pokerButton_Click);
             // 
             // horseRacing
             // 
@@ -93,7 +93,7 @@
             this.ClientSize = new System.Drawing.Size(697, 450);
             this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.horseRacing);
-            this.Controls.Add(this.pokerButton);
+            this.Controls.Add(this.blackJackButton);
             this.Controls.Add(this.directionLabel);
             this.Name = "welcomForm";
             this.Text = "Welcome to Our Casino";
@@ -103,7 +103,7 @@
 
         #endregion
         private System.Windows.Forms.Label directionLabel;
-        private System.Windows.Forms.Button pokerButton;
+        private System.Windows.Forms.Button blackJackButton;
         private System.Windows.Forms.Button horseRacing;
         private System.Windows.Forms.Label welcomeLabel;
     }
